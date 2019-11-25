@@ -1,3 +1,3 @@
 # Smith-Waterman
 
-Top down and bottom up approach of solving smith-waterman algorithm
+Top down with memoization and bottom up approach of solving smith-waterman algorithm 
