@@ -52,24 +52,24 @@ int main(int argc, char* argv[])
 	// n=m=10;
 
 
-	string s = "caacbdacca";
-	n = s.size();
-	X = new char[s.size()+1];
-	s.copy(X, s.size()+1);
-	X[s.size()] = '\0';
-
-	string s1 = "bccbcdccba";
-
-	Y = new char[s1.size()+1];
-	m = s1.size();
-	s1.copy(Y, s1.size()+1);
-	Y[s1.size()] = '\0';
+	// string s = "caacbdacca";
+	// n = s.size();
+	// X = new char[s.size()+1];
+	// s.copy(X, s.size()+1);
+	// X[s.size()] = '\0';
+	//
+	// string s1 = "bccbcdccba";
+	//
+	// Y = new char[s1.size()+1];
+	// m = s1.size();
+	// s1.copy(Y, s1.size()+1);
+	// Y[s1.size()] = '\0';
 
 
 	random_generator::seed();
 
-	// X = rg.random_string_m(n, 4);
-	// Y = rg.random_string_m(m, 4);
+	X = rg.random_string_m(n, 4);
+	Y = rg.random_string_m(m, 4);
 
 	H = new int*[n+1];
 	P = new char*[n+1];
